@@ -116,6 +116,7 @@ body {
 .footer{
     background:linear-gradient(0deg, rgba(77, 151, 169, 0.85), rgba(77, 151, 169, 0.85)), url('assets/desktop/image-footer.jpg');
     background-size: cover;
+    background-position: center;
     display: table;
     width: 100%;
     table-layout: fixed;
