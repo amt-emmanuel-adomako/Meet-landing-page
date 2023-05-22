@@ -1,8 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700;900&display=swap');
+html{
+    width: 100%;
+}
 body {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
   }
+h1{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+}
 .top-svg{
     padding-top: 2rem;
     display:flex;
@@ -118,16 +135,15 @@ body {
     background-size: cover;
     background-position: center;
     display: table;
-    width: 100%;
+    /* width: 100%; */
     table-layout: fixed;
-    padding: 6rem;
+    padding: 2rem;
     background-color: #4d97a933;
 }
 
 .footer span{
-    vertical-align: top;
+    vertical-align: middle;
     display: table-cell;
-    font: Red Hat Display; 
     color: #f3f3f3;
     text-align: center;
     padding: 20px;
@@ -145,7 +161,7 @@ body {
         order: 1;
     }
     .top-welcome>span:nth-child(2) {
-        flex: 0 1 50%;
+        flex: 0 1 90%;
         order: 2;
       }
     .footer{
@@ -173,4 +189,13 @@ body {
     .info_btn{
         margin-left: 0px;
     }
+    .text-desc{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .footer{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
   }
+  
