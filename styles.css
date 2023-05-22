@@ -1,21 +1,28 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;700;900&display=swap');
 html{
     width: 100%;
 }
 body {
     font-family: 'Red Hat Display';
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 26px;
+    color: #87879D;
   }
 h1{
+    color: #28283d;
     font-size: 64px;
     font-weight: 900;
     line-height: 64px;
 }
-
+.overline{
+    color: #4d96a9;
+    letter-spacing:4px ;
+    text-transform: capitalize;
+}
 h2{
+    color: black;
     font-size: 40px;
     font-weight: 900;
     line-height: 44px;
@@ -90,7 +97,9 @@ h2{
     padding-left: 25%;
     padding-right: 25%;
 }
-
+.text-center{
+    text-align: center;
+}
 .top-separator{
     display: flex; 
     position: relative;
