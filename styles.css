@@ -181,6 +181,23 @@ h2{
   }
 
   @media only screen and (max-width:375px){
+    h1{
+        color: #28283d;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 54px;
+    }
+    .overline{
+        color: #4d96a9;
+        letter-spacing:4px ;
+        text-transform: capitalize;
+    }
+    h2{
+        color: black;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 34px;
+    }
     .images-container{
         flex-wrap: wrap;
         justify-content: space-between;
