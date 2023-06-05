@@ -162,7 +162,7 @@ body {
     
     .images-container{
         display: flex;
-        padding: 0 165px;
+        justify-content: center;
     }
     
     .vertical_line {
