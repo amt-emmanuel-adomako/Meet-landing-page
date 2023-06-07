@@ -9,6 +9,7 @@ body {
     font-weight: 500;
     line-height: 26px;
     color: #87879D;
+    margin: 0px;
   }
 
   @media screen and (min-width: 1200px){
@@ -59,15 +60,20 @@ body {
     .top-welcome{
         display: flex;
         justify-content: center;
-        height: 358px;
-        padding: 0 32px;
+        height: 385px;
+        overflow: hidden;
+        /* padding: 0 32px; */
     }
     .top-welcome_left{
-        margin-right: 50px;
+        margin-right: auto;
+        position: relative;
+        left: -40px;
     }
 
     .top-welcome_right{
-        margin-left: 50px;
+        margin-left: auto;
+        position: relative;
+        right: -40px;
     }
     .responsive-img{
         width: 100%;
@@ -150,7 +156,7 @@ body {
     .top-separator{
         display: flex; 
         position: relative;
-        margin-top: 200px;
+        margin-top: 185px;
         margin-bottom: 80px;
     }
     
@@ -320,6 +326,9 @@ body {
         flex: 1 1 44%;
         order: 1;
         margin: 10px;
+        margin:0px auto;
+        position: relative;
+        left: -40px;
     }
     .top-welcome>span:nth-child(2) {
         flex: 0 1 60%;
