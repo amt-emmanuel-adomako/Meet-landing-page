@@ -64,6 +64,9 @@ body {
         overflow: hidden;
         /* padding: 0 32px; */
     }
+    .top-welcome_tab{
+        display: none;
+    }
     .top-welcome_left{
         margin-right: auto;
         position: relative;
@@ -322,7 +325,13 @@ body {
         flex-wrap: wrap;
         justify-content: center;
       }
-    .top-welcome>span{
+    .top-welcome_left{
+        display: none;
+    }
+    .top-welcome_right{
+        display: none;
+    }
+    /* .top-welcome>span{
         flex: 1 1 44%;
         order: 1;
         margin: 10px;
@@ -333,8 +342,16 @@ body {
     .top-welcome>span:nth-child(2) {
         flex: 0 1 60%;
         order: 2;
-      }
-
+      } */
+    .top-welcome_tab{
+        overflow: hidden;
+        justify-content: center;
+        display: flex;
+    }
+    .hero-img{
+        left: -30px;
+        right: -30px;    
+    }
     .responsive-img{
         width: 100%;
         height: auto
@@ -344,6 +361,7 @@ body {
         padding: 5px;
         width: 60%;
         height: 262px;
+        order: 1;
     }
     
     .download_btn{
@@ -579,7 +597,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
       }
-    .top-welcome>span{
+    /* .top-welcome>span{
         flex: 1 1 44%;
         order: 1;
         margin: 10px;
@@ -592,12 +610,47 @@ body {
     .responsive-img{
         width: 100%;
         height: auto
+    } */
+
+    .top-welcome_left{
+        display: none;
+    }
+    .top-welcome_right{
+        display: none;
+    }
+    /* .top-welcome>span{
+        flex: 1 1 44%;
+        order: 1;
+        margin: 10px;
+        margin:0px auto;
+        position: relative;
+        left: -40px;
+    }
+    .top-welcome>span:nth-child(2) {
+        flex: 0 1 60%;
+        order: 2;
+      } */
+    .top-welcome_tab{
+        overflow: hidden;
+        justify-content: center;
+        display: flex;
+    }
+    .hero-img{
+        left: -3%;
+        right: -3%;   
+        width: 100%;
+        height: auto 
+    }
+    .responsive-img{
+        width: 100%;
+        height: auto
     }
     .top-welcome_text{
         text-align: center;
         padding: 5px;
         width: 80%;
         height: 262px;
+        order: 1;
     }
     
     .download_btn{
