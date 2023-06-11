@@ -346,11 +346,13 @@ body {
     .top-welcome_tab{
         overflow: hidden;
         justify-content: center;
-        display: flex;
+/*         display: flex; */
     }
     .hero-img{
         left: -30px;
-        right: -30px;    
+        right: -30px;
+        width: 106%;
+        position: relative;    
     }
     .responsive-img{
         width: 100%;
