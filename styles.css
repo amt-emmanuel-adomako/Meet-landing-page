@@ -636,6 +636,7 @@ body {
     .top-welcome_tab{
         overflow: hidden;
         justify-content: center;
+/*         display: flex; */
         width:100%;
     }
     .hero-img{
